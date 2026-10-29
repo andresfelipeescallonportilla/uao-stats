@@ -35,8 +35,7 @@ engine = create_engine(
     f'postgresql://{user}:{password}@{host}:{port}/{database}'
 )
 
-with engine.connect() as conn:
-    df = pd.read_sql('SELECT COUNT(*) FROM enrolled_uao', conn)
-    print(df)
+df = pd.read_sql('SELECT COUNT(*) FROM enrolled_uao', engine)
+print(df)
 
 print('CONEXIÓN OK: PostgreSQL local (pgAdmin4) -> uao_db')

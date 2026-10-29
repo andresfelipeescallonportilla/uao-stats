@@ -28,27 +28,23 @@ df_segment1 = df[(df.Cluster == 0)]
 #fig_vis = px.box(df,x=df.columns[0],y=df.columns[1],color_discrete_sequence=px.colors.diverging.RdYlBu)
 
 #Cluster 1 Program
-df_segment1_faculty = df_segment1['faculty'].value_counts()
-df_segment1_faculty = df_segment1_faculty.reset_index()
-df_segment1_faculty = df_segment1_faculty.rename(columns={'index': 'Faculty', 'faculty': 'Count'})
+df_segment1_faculty = df_segment1['faculty'].value_counts().reset_index()
+df_segment1_faculty.columns = ['Faculty', 'Count']
 lineplot1_faculty=px.bar(df_segment1_faculty,x="Faculty",y='Count',color_discrete_sequence=px.colors.diverging.RdYlBu)
 
 #Cluster 1 Gender
-df_segment1_gender = df_segment1['gender'].value_counts()
-df_segment1_gender = df_segment1_gender.reset_index()
-df_segment1_gender = df_segment1_gender.rename(columns={'index': 'Gender', 'gender': 'Count'})
+df_segment1_gender = df_segment1['gender'].value_counts().reset_index()
+df_segment1_gender.columns = ['Gender', 'Count']
 lineplot1_gender = px.bar(df_segment1_gender,x="Gender",y='Count',color_discrete_sequence=px.colors.diverging.RdYlBu)
 
 #Cluster 1 Age
-df_segment1_age = df_segment1['age'].value_counts()
-df_segment1_age = df_segment1_age.reset_index()
-df_segment1_age = df_segment1_age.rename(columns={'index': 'Age', 'age': 'Count'})
+df_segment1_age = df_segment1['age'].value_counts().reset_index()
+df_segment1_age.columns = ['Age', 'Count']
 lineplot1_age = px.bar(df_segment1_age,x="Age",y='Count',color_discrete_sequence=px.colors.diverging.RdYlBu)
 
 #Cluster 1 Stratum
-df_segment1_stratum = df_segment1['stratum'].value_counts()
-df_segment1_stratum = df_segment1_stratum.reset_index()
-df_segment1_stratum = df_segment1_stratum.rename(columns={'index': 'Stratum', 'stratum': 'Count'})
+df_segment1_stratum = df_segment1['stratum'].value_counts().reset_index()
+df_segment1_stratum.columns = ['Stratum', 'Count']
 lineplot1_stratum = px.bar(df_segment1_stratum,x="Stratum",y='Count',color_discrete_sequence=px.colors.diverging.RdYlBu)
 
 
@@ -56,27 +52,23 @@ lineplot1_stratum = px.bar(df_segment1_stratum,x="Stratum",y='Count',color_discr
 df_segment2 = df[(df.Cluster == 1)]
 
 #Cluster 2 Program
-df_segment2_faculty= df_segment2['faculty'].value_counts()
-df_segment2_faculty  = df_segment2_faculty.reset_index()
-df_segment2_faculty = df_segment2_faculty.rename(columns={'index': 'Faculty', 'faculty': 'Count'})
+df_segment2_faculty= df_segment2['faculty'].value_counts().reset_index()
+df_segment2_faculty.columns = ['Faculty', 'Count']
 lineplot2_faculty=px.bar(df_segment2_faculty,x="Faculty",y='Count',color_discrete_sequence=px.colors.diverging.RdYlBu)
 
 #Cluster 2 Gender
-df_segment2_gender = df_segment2['gender'].value_counts()
-df_segment2_gender = df_segment2_gender.reset_index()
-df_segment2_gender = df_segment2_gender.rename(columns={'index': 'Gender', 'gender': 'Count'})
+df_segment2_gender = df_segment2['gender'].value_counts().reset_index()
+df_segment2_gender.columns = ['Gender', 'Count']
 lineplot2_gender = px.bar(df_segment2_gender,x="Gender",y='Count',color_discrete_sequence=px.colors.diverging.RdYlBu)
 
 #Cluster 2 Age
-df_segment2_age = df_segment2['age'].value_counts()
-df_segment2_age = df_segment2_age.reset_index()
-df_segment2_age = df_segment2_age.rename(columns={'index': 'Age', 'age': 'Count'})
+df_segment2_age = df_segment2['age'].value_counts().reset_index()
+df_segment2_age.columns = ['Age', 'Count']
 lineplot2_age = px.bar(df_segment2_age,x="Age",y='Count',color_discrete_sequence=px.colors.diverging.RdYlBu)
 
 #Cluster 2 Stratum
-df_segment2_stratum = df_segment2['stratum'].value_counts()
-df_segment2_stratum = df_segment2_stratum.reset_index()
-df_segment2_stratum = df_segment2_stratum.rename(columns={'index': 'Stratum', 'stratum': 'Count'})
+df_segment2_stratum = df_segment2['stratum'].value_counts().reset_index()
+df_segment2_stratum.columns = ['Stratum', 'Count']
 lineplot2_stratum = px.bar(df_segment2_stratum,x="Stratum",y='Count',color_discrete_sequence=px.colors.diverging.RdYlBu)
 
 #main function:

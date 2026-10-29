@@ -74,7 +74,7 @@ cd C:\Users\x360\Desktop\uao_stats\app
 python -m pip install -r requirements.txt
 ```
 
-`requirements.txt` contiene el stack necesario para reproducir el comportamiento original del dashboard (Dash 1.x, Plotly 4.x, SQLAlchemy < 2.0, psycopg2, etc.).
+`requirements.txt` contiene el stack instalado y verificado para que el dashboard funcione en local (Python 3.15): Dash 2.18, Plotly 5.24, SQLAlchemy 2.x, psycopg, Flask/Werkzeug modernos, pandas, scikit-learn, folium, numpy, etc.
 
 ### Paso 5 — Ejecutar el dashboard
 
@@ -201,8 +201,8 @@ C:\Users\x360\Desktop\uao_stats\
 - **Error de conexión a PostgreSQL** (`could not connect`, `Connection refused`): el servidor PostgreSQL no está corriendo → iniciar en pgAdmin4 (*Servers* → *PostgreSQL* → *Start*) o iniciar el servicio de PostgreSQL.
 - **Error de base de datos** (`database "uao_db" does not exist`): crear la base `uao_db` en pgAdmin4.
 - **Error de tabla**: crear las tablas requeridas (`enrolled_uao`, `registered_uao`, `deserters_uao`, `cities`, `rules`).
-- **Error con `psycopg2` / SQLAlchemy**: instalar dependencias con `pip install -r app/requirements.txt`.
-- **Error con Dash**: usar las versiones del `app/requirements.txt` (Dash 1.x / Plotly 4.x), ya que el código usa el API original de Dash.
+- **Error con el driver / SQLAlchemy**: instalar dependencias con `python -m pip install -r app/requirements.txt`.
+- **Error con Dash**: usar las versiones del `app/requirements.txt` (Dash 2.18 / Plotly 5.24), ya que el dashboard usa la API de Dash instalada allí.
 
 ---
 

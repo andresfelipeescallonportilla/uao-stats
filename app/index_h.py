@@ -231,7 +231,7 @@ def toggle_collapse(n_home, n_visualization_map, n_visualization1_map, n_visuali
 # Configuring APP running as Web
 if __name__ == '__main__':
     #app.run_server(debug=True)
-    app.run_server(host="0.0.0.0", port="8050", debug=True) #debug=True (for localshost); #)#debug=False (for AWS EC2)
+    app.run_server(host="0.0.0.0", port="8050", debug=True, dev_tools_hot_reload=False) #debug=True (for localshost); #)#debug=False (for AWS EC2)
 
 
 ##############################

@@ -1,9 +1,12 @@
-psycopg2-binary
-sqlalchemy<2.0
-dash==1.19.0
+psycopg[binary]
+sqlalchemy>=2,<3
+dash==2.18.2
 dash-bootstrap-components<1.0
-plotly<5
+plotly>=5.24,<6
 pandas
 scikit-learn
 folium
 numpy
+flask>=3.0
+werkzeug>=3.0
+setuptools<81
