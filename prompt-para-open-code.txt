@@ -1,0 +1,6 @@
+Trabajaras en la ruta "C:\Users\x360\Desktop\uao_stats", y usando la info del repo "https://github.com/felipeescallon/Data-Science-Project" 
+(es un proyecto que muestra un dashboard conectado a una base de datos postgres llamada uao_db la cual la tengo funcionando en un servidor local en pgadmin4. 
+Necesito que dentro de la ruta de trabajo, hagas que todo el proyecto del repo funcione localmente (localhost) tal cual como fue concebido originalmente 
+y que pueda ser alojado en visual studio code para que desde ahí se pueda hacer la conexión hacia la base de datos. En ese caso me explicas  paso a paso 
+lo que debo hacer para conectarme desde visual studio code a pgadmin4 (ponlo en un README.md). 
+Comprendes lo que debes hacer?

@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Entornos virtuales
+venv/
+.venv/
+
+# Variables de entorno / secretos
+.env
+
+# Archivos temporales
+*.tmp
+assets/temp.html
