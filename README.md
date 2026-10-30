@@ -208,10 +208,14 @@ C:\Users\x360\Desktop\uao_stats\
 
 ## 🔗 Links del proyecto 
 
-- Repo GitHub actual para despliegue local: https://github.com/andresfelipeescallonportilla/uao-stats
-  (Repo GitHub original: https://github.com/felipeescallon/Data-Science-Project)
-- Repo GitHub actual para despliegue en V0 by Vercel: https://github.com/andresfelipeescallonportilla/uao-stats-vercel
-- App desplegada (antes en AWS EC2, ahora en Vercel): https://v0-uao-stats.vercel.app/
+- Repo GitHub original:
+  https://github.com/felipeescallon/Data-Science-Project
+- Repo GitHub actual para despliegue local:
+  https://github.com/andresfelipeescallonportilla/uao-stats
+- Repo GitHub actual para despliegue en V0 by Vercel:
+  https://github.com/andresfelipeescallonportilla/uao-stats-vercel
+- App desplegada (antes en AWS EC2, ahora en Vercel):
+  https://v0-uao-stats.vercel.app
 
 ---
 
