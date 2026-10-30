@@ -218,7 +218,7 @@ C:\Users\x360\Desktop\uao_stats\
   
 - Repo GitHub actual para despliegue en V0 by Vercel:
 
-  https://github.com/andresfelipeescallonportilla/uao-stats-vercel
+  https://github.com/andresfelipeescallonportilla/uao-stats-v0-vercel-app
   
 - App desplegada (antes en AWS EC2, ahora en Vercel):
 
