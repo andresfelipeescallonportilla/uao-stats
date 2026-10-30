@@ -209,7 +209,7 @@ C:\Users\x360\Desktop\uao_stats\
 ## 🔗 Links del proyecto original
 
 - GitHub: https://github.com/felipeescallon/Data-Science-Project
-- App publicada (AWS EC2): http://18.217.133.231:8050/
+- App desplegada (antes en AWS EC2, ahora en Vercel): https://v0-uao-stats.vercel.app/
 
 ---
 
